@@ -1,0 +1,35 @@
+<div class="">
+
+<div class="headers">
+<br><br><br>
+<h1>Add a new Artist</h1>
+<br>
+</div>
+
+
+<div class="users_block">
+<%= form_for(@artist) do |f| %>
+<div>
+  <p><%= f.label :name %></p>
+  <%= f.text_field :name %>
+</div>
+
+<div>
+  <p><%= f.label :plot %></p>
+  <%= f.text_field :plot %>
+</div>
+
+<div>
+  <p><%= f.label :upload %></p>
+  <%= f.file_field :upload %>
+</div>
+
+<div>
+  <%= f.submit "Save Artist" %>
+</div>
+
+<p><%= link_to "Find your Artists", :class => "btn btn-primary btn-lg orange darken-1" %>
+
+<% end %>
+</div>
+</div>

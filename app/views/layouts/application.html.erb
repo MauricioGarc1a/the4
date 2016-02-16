@@ -40,13 +40,16 @@
                           <a href="#page-top"></a>
                       </li>
                       <li>
-                          <a class="page-scroll" >About</a>
+                          <%= link_to "Main", root_path, class: "page-scroll" %>
                       </li>
                       <li>
-                          <a class="page-scroll" >Create an Account</a>
+                          <%= link_to "Artists", new_artist_path, class: "page-scroll" %>
                       </li>
                       <li>
-                    <%= link_to "Log In", new_artist_path, class: "page-scroll" %>
+                          <%= link_to "Songs", new_song_path, class: "page-scroll" %>
+                      </li>
+                      <li>
+                    <%= link_to "Log In", class: "page-scroll" %>
                       </li>
                   </ul>
               </div>
