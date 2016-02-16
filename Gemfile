@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+gem 'carrierwave'
+gem 'devise', '3.4.1'
+gem 'bootstrap-sass'
+#gem "mini_magick"
+gem 'rails_12factor', '0.0.2'
+gem 'jquery-turbolinks'
