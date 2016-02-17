@@ -5,6 +5,10 @@
 .logo {
 width: auto;
 height: auto;
+padding-bottom: 0px;
+padding-top: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
 .album {
@@ -49,7 +53,7 @@ padding-top: 0;
   color: #cccccc;
 }
 
-.plotext {
+.col-xs-4 {
 color: #cccccc;
 font-size: 13px;
 font-style: italic;

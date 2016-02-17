@@ -1,9 +1,13 @@
 <div class="col col s12 m6 l4">
 
-    <br><br>
-    <h1><%= link_to song.title, song, class:"title"%></h1>
-    <p><%= image_tag song.picture, class: "album"%></p>
-    <p><%= song.plot %></p>
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+    <div class="col-xs-4"> <%= link_to song.title, song, class:"title"%> </div>
+    <div class="col-xs-4"> <%= image_tag song.picture, class: "album"%> </div>
+    <div class="col-xs-4"> <%= song.plot %> </div>
 
 
+  </div>
+ </div>
 </div>

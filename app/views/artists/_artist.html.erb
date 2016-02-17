@@ -1,9 +1,11 @@
 <div class="col col s12 m6 l4">
+<br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4"> <%= image_tag artist.picture, class: "group"%> </div>
+     <div class="col-xs-4"> <%= link_to artist.name, artist, class: "title" %> </div>
+       <div class="col-xs-4"> <%= artist.plot %> </div>
 
-<br><br>
-  <h1><%= link_to artist.name, artist, class: "title" %></h1>
-    <p align="center"><%= image_tag artist.picture, class: "group"%></p>
-    <p class="plotext"><%= artist.plot %></p>
-
-
+   </div>
+  </div>
 </div>
