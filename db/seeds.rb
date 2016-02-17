@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Artist.destroy_all
-cafetacuba = Artist.create ({name:"Cafetacuba", picture:"http://www.universalmusicmagazine.com/wp-content/uploads/2013/03/CTS.jpg",
+cafetacuba = Artist.create ({name:"Cafetacuba", picture:"https://s-media-cache-ak0.pinimg.com/564x/04/aa/72/04aa728670991acae250a9a8cb414e2b.jpg",
   plot:"Café Tacvba, también conocido como Café Tacuba, es un conjunto de rock alternativo, originario de Ciudad Satélite del Área Metropolitana de la Ciudad de México."})
 zoe = Artist.create ({name:"Zoe", picture:"http://img14.deviantart.net/c2ea/i/2006/310/5/0/zoe___oro_by_vr_gfx.jpg",
     plot:"Zoe es una banda mexicana de rock formada en 1995 en Cuernavaca y oficializada en la Ciudad de México "})
