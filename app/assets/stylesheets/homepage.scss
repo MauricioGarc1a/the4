@@ -29,14 +29,31 @@ body {
   background: #000 url('page-bg.png') repeat-x 0 0;
 }
 
-.homepage-block {
+.play {
+width: 400px;
+height: auto;
+padding-top: 0;
+}
+
+.users_block {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   margin-left: 10px;
-  color: inherit;
+  color: #cccccc;
   background-color: rgba(19, 19, 19, 0) !important;
   width: 500px;
+}
+
+.headf {
+  color: #cccccc;
+}
+
+.plotext {
+color: #cccccc;
+font-size: 13px;
+font-style: italic;
+
 }
 
 .material-icons {
