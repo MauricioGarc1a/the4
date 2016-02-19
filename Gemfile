@@ -53,3 +53,6 @@ gem 'rails_12factor', '0.0.2'
 gem 'jquery-turbolinks'
 
 gem 'rspec-rails'
+gem 'spring-commands-rspec'
+gem 'guard-rspec'
+gem 'terminal-notifier-guard'

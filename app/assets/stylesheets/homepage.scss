@@ -31,6 +31,7 @@ margin-top: 0px;
 
 body {
   background: #000 url('page-bg.png') repeat-x 0 0;
+  padding-top: 50px;
 }
 
 .play {
@@ -68,7 +69,7 @@ font-style: italic;
 }
 
 .material-icons {
-  color:#5cd65c;
+  color:#000!important;
   font-size: 20px;
   font-style: italic;
 }
@@ -84,7 +85,7 @@ height: 100%;
   border-bottom: 1px solid, rgba(255, 255, 255, .3);
   text-transform: uppercase;
   font-family: "Helvetica";
-  background-color: #000;
+  background-color: rgba(70, 210, 70, .8)!important;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -94,7 +95,7 @@ height: 100%;
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -103,7 +104,7 @@ height: 100%;
 }
 
 .navbar-custom a {
-  color: #5cd65c;
+  color: #000;
 }
 
 .navbar-custom .navbar-brand {
